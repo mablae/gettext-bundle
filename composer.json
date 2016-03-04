@@ -1,11 +1,11 @@
 {
   "name": "mablae/gettext-bundle",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "type": "symfony-bundle",
   "description": "Symfony2 Integreation for the oscarotero/gettext lib",
   "autoload": {
     "psr-4": {
-      "Mablae\\Gettext\\": "src"
+      "Mablae\\Gettext\\": "src/Mablae/Gettext"
     }
   },
   "require": {
