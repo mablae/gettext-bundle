@@ -1,6 +1,6 @@
 {
   "name": "mablae/gettext-bundle",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "type": "symfony-bundle",
   "description": "Symfony2 Integreation for the oscarotero/gettext lib",
   "autoload": {
