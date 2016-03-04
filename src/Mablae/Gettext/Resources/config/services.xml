@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service class="Mablae\Gettext\Command\ExtractTwigCommand" id="mablae.gettext.command.extract_twig">
+            <argument type="service" id="twig"/>
+            <argument type="service" id="templating.name_parser"/>
+            <argument type="service" id="twig.template_iterator"/>
+            <argument type="service" id="templating.locator"/>
+            <call method="setContainer">
+                <argument id="service_container" type="service"/>
+            </call>
+            <tag name="console.command"/>
+        </service>
+        <service class="Mablae\Gettext\Twig\Loader\AbsolutePathLoader" id="svb_shop.twig_loader.absolute_path_loader">
+            <tag name="twig.loader" />
+        </service>
+    </services>
+
+</container>

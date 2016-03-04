@@ -1,0 +1,20 @@
+{
+    "name": "mablae/gettext",
+    "version": "0.2.0",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Integreation for the oscarotero/gettext lib",
+    "autoload": {
+        "psr-4": {
+            "Mablae": "src"
+
+    },
+    "require": {
+        "gettext/gettext": "^3.5"
+    },
+    "authors": [
+        {
+            "name": "Malte Blaettermann",
+            "email": "malte.blaettermann@gmail.com"
+        }
+    ]
+}
