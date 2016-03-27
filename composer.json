@@ -1,6 +1,6 @@
 {
   "name": "mablae/gettext-bundle",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "type": "symfony-bundle",
   "description": "Symfony2 Integration for the oscarotero/gettext lib",
   "license": "MIT",
@@ -10,11 +10,13 @@
     }
   },
   "require": {
-    "gettext/gettext": "^3.5"
+    "gettext/gettext": "^3.5",
+    "symfony/framework-bundle": "~2.8|~3.0",
+    "symfony/console": "~2.8|~3.0"
   },
   "authors": [
     {
-      "name": "Malte Blaettermann",
+      "name": "Malte Blättermann",
       "email": "malte.blaettermann@gmail.com"
     }
   ]
